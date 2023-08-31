@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=Patua+One");
+ 
+  .container {
+  padding-top: 1%;
+  padding-bottom: 4%;
+}
+  .h1 {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  font-family: "Patua One", cursive;
+}
+  .box2 {
+  max-height: 350px;
+  height: 150px;
+  background-color: #63D8B5;
+  background-size: cover;
+  background-position: center center;
+  transition: all 0.5s ease-in-out;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+  .box2 .hover {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  transition: all 0.5s ease-in-out;
+  padding: 2em 2em;
+}
+  .box2 .hover h1 {
+  color: #ffffff;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-family: "Patua One", cursive;
+}
+  .box2 .hover p {
+  color: #d47373;
+}
+  .box2:hover {
+  filter: grayscale(100%);
+}
+  .box2:hover .hover {
+  opacity: 1;
+  cursor: pointer;
+}
+  .box {
+  position: relative;
+  max-height: 255px;
+  height: 100px;
+  background-color: #548c8d;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  overflow: hidden;
+}
+  .box .contenthover2 {
+  transform: scale(0, 0);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #5a78e8;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  padding: 2em 2em;
+}
+  .box .contenthover2 h1 {
+  color: #ffffff;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-family: "Patua One", cursive;
+  font-style: italic;
+}
+  .box .contenthover2 p {
+  color: #ffffff;
+}
+  .box .content-hover {
+  transform: scale(0, 0);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #252525;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  padding: 2em 2em;
+}
+  .box .content-hover h1 {
+  color: #096451;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-family: "Patua One", cursive;
+  font-style: italic;
+}
+  .box .content-hover p {
+  color: #604a4a;
+}
+  .box .content {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+  .box .content img {
+  width: 160px;
+}
+  .box .content p {
+  font-size: 1.2em;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: -2em;
+}
+  .box:hover > .content-hover,
+  .box:hover > .contenthover2 {
+  transform: scale(1, 1);
+  cursor: pointer;
+}
