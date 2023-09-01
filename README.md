@@ -1,52 +1,72 @@
-Contribution: 2020-07-20 20:00
 
-Contribution: 2020-07-20 20:01
+<h3 align="center">Contentful-Nextjs Blog</h3>
 
-Contribution: 2020-07-22 20:00
+<div align="center">
 
-Contribution: 2020-07-22 20:01
+[![Status](https://img.shields.io/badge/status-active-success.svg)]() 
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
-Contribution: 2020-07-22 20:02
+</div>
 
-Contribution: 2020-07-22 20:03
+---
 
-Contribution: 2020-07-24 20:00
+<p align="center"> This is a blog using Nextjs , Contentful Headless CMS and TailwindCSS
+    <br> 
+</p>
 
-Contribution: 2020-07-24 20:01
+## 📝 Table of Contents
 
-Contribution: 2020-07-24 20:02
+- [About](#about)
+  - [Prerequisites](#-prerequisites-)
+  - [BackEnd](#Graphql)
+- [Built Using](#built_using)
+- [Authors](#authors)
+- [Acknowledgments](#acknowledgement)
 
-Contribution: 2020-07-29 20:00
+## 🧐 About <a name = "about"></a>
 
-Contribution: 2020-07-30 20:00
+This is a blog project using **Contentful CMS** and Nextjs and React.
+ 
 
-Contribution: 2020-08-02 20:00
+### 🔎  Contentful CMS <a name = "cms"></a>
+For the project I have used the Contentful CMS, to work with your own data need to register an account on contentful site and grab the credentials from Settings and configure it with **Contentful** module.
+ 
+### 🧒 Prerequisites <a name = "Prerequisites"></a>
 
-Contribution: 2020-08-02 20:01
+You have to familiar with Javascript frameworks such as `React,Nextjs` and `HTML`,`CSS` and of course the `Javascript` inorder to work with this project.
 
-Contribution: 2020-08-02 20:02
+## ⌚ Using the project
 
-Contribution: 2020-08-11 20:00
+Fork the repo and install dependencies, that's all you need. ⛏️. 
+### Install dependencies
+```
 
-Contribution: 2020-08-11 20:01
+yarn install
+```
+### Running the project
 
-Contribution: 2020-08-11 20:02
+```
+yarn dev
+```
 
-Contribution: 2020-08-12 20:00
+ 
+ will start the project.
+ 
 
-Contribution: 2020-08-13 20:00
+## 🚀  Built Using <a name = "built_using"></a>
 
-Contribution: 2020-08-13 20:01
+- [Nextjs](https://nextjs.org/) 
+- [Tailwindcss](https://tailwindcss.com/) 
+- [Contentful Headless CMS](https://contentful.com/)
+- [Vitejs](https://vitejs.dev/) - Build Tool
+- [NodeJs](https://nodejs.org/en/) - Server Environment
 
-Contribution: 2020-08-13 20:02
+## ✍️ Authors <a name = "authors"></a> and Guides
+- [@devmnj](https://github.com/devmnj) - Idea & Initial work
+- [JSU](http://javascriptsu.wordpress.com/tag/solidjs) - More guides
+- [JSSDO](http://jssudo.blogpost.com)
+- [Imgur-for fun](https://imgur.com/user/devshots/posts)
 
-Contribution: 2020-08-13 20:03
+## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
-Contribution: 2020-08-13 20:04
-
-Contribution: 2020-08-14 20:00
-
-Contribution: 2020-08-17 20:00
-
-Contribution: 2020-08-17 20:01
-
+- Thank for awesome `Mamba` template
